@@ -1,0 +1,38 @@
+{
+  "A": {
+    "label": "Base LLM, no RAG",
+    "bleu": 17.07,
+    "rougeL": 28.61,
+    "bertscore_P": 66.93,
+    "bertscore_R": 69.96,
+    "bertscore_F1": 68.38,
+    "recall_at_5": "N/A"
+  },
+  "B": {
+    "label": "Base LLM + RAG",
+    "bleu": 8.15,
+    "rougeL": 21.01,
+    "bertscore_P": 58.53,
+    "bertscore_R": 64.75,
+    "bertscore_F1": 61.38,
+    "recall_at_5": 64.44
+  },
+  "C": {
+    "label": "Fine-tuned, no RAG",
+    "bleu": 26.18,
+    "rougeL": 37.38,
+    "bertscore_P": 74.18,
+    "bertscore_R": 74.22,
+    "bertscore_F1": 74.12,
+    "recall_at_5": "N/A"
+  },
+  "D": {
+    "label": "Fine-tuned + RAG",
+    "bleu": 9.24,
+    "rougeL": 22.89,
+    "bertscore_P": 60.95,
+    "bertscore_R": 65.0,
+    "bertscore_F1": 62.76,
+    "recall_at_5": 64.44
+  }
+}

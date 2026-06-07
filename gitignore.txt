@@ -1,0 +1,44 @@
+# API keys và secrets — CRITICAL
+**/.env
+**/.env.local
+*.key
+
+# Dữ liệu thô và output lớn
+Source/data/raw/
+Source/data/chunks/
+Source/data/qa_raw/
+Source/data/qa_filtered/
+Source/data/*.jsonl
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+env/
+.env
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Model checkpoints (rất lớn, đừng push lên Git)
+Source/checkpoints/
+Source/models/
+*.safetensors
+*.bin
+*.pt
+
+# Word/PowerPoint temp files
+~$*.docx
+~$*.pptx
+
+# desktop.ini
+desktop.ini
+.claude
